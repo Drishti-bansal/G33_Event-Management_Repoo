@@ -103,7 +103,7 @@
         {% if events %}
             {% for event in events %}
                 <div class="event-item">
-                    <img src="{{ url_for('static', filename=event.image_path) }}" alt="Event image">
+                    <img src="{{ url_for('static', filename=event.image_pathg) }}" alt="Event image">
                     <div>
                         <h3>{{ event.title }}</h3>
                         <p><strong>Category:</strong> {{ event.category }}</p>
